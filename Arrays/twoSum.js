@@ -20,3 +20,9 @@ function twoSum(arrayName, target){
 console.log(twoSum(nums, 10));
 
 //for this problem the mistake that i was making is that i started j at 1, instead of j=i+1
+
+//The key in solving the twoSum probelm, its all about understanding the nested loops
+
+//We initialize the outtter loop starting from 0 and we ensure its less than the length of the provided array
+//We initialize the inner loop starting from i+1 and we ensure its less than the length of the provided array
+//Then we test the logic, array[i] + array[j] === target. This approach is kinda slow but we are beginners so we just taking it one step at a time
